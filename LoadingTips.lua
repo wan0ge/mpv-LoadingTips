@@ -1,4 +1,6 @@
 -- 在视频还在加载时显示 OSD 提示
+-- 十分简易的mpv lua插件脚本，用于mpv加载文件时显示一个加载中提示
+-- https://github.com/wan0ge/mpv-LoadingTips
 
 local last_show_time = 0
 local check_playback_timer = nil
