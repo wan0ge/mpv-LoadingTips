@@ -1,5 +1,5 @@
 # mpv-LoadingTips
-十分简易的mpv lua插件，用于mpv加载文件时显示一个加载中提示
+十分简易的mpv lua插件，用于mpv加载文件时精准显示一个加载中提示
 
 ### 预览图片
 ![Snipaste_2025-03-08_05-50-11](https://github.com/user-attachments/assets/c4434fd5-a773-4a3e-82d6-dfbf7a78d143)
