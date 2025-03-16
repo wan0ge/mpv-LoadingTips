@@ -10,7 +10,13 @@
 
 https://github.com/user-attachments/assets/a98286c3-2f87-494a-aba8-462590010f49
 
-视频中的弹幕插件：[uosc_danmaku](https://github.com/Tony15246/uosc_danmaku)（强烈推荐，影视与动画都支持）
+演示中的插件
+
+弹幕插件：[uosc_danmaku](https://github.com/Tony15246/uosc_danmaku)（强烈推荐，影视与动画都支持）
+
+网页调用mpv插件：[embyToLocalPlayer](https://github.com/kjtsune/embyToLocalPlayer)
+
+注册mpv协议插件：[mpv-handler](https://github.com/akiirui/mpv-handler)
 
 ## 特性
 也支持切换播放列表时提示
