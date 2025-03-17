@@ -44,9 +44,9 @@ local function show_loading_message()
             local demux_cache_time = mp.get_property_number("demuxer-cache-time", 0)
             local time_pos = mp.get_property_number("time-pos", 0)
             
-            -- 前 3 秒内强制检查是否满足条件
+            -- 前 0.01 秒内强制检查是否满足条件
             initial_check_count = initial_check_count + 1
-            if initial_check_count > 30 then  -- 3秒内（0.1秒 * 30 = 3秒）
+            if initial_check_count > 0.01 then  -- 0.01秒内
                 -- 首次检查到视频稳定就关闭提示
                 if time_pos > 0.1 and demux_cache_time > 0.5 and not paused then
                     stop_loading_message()
